@@ -173,22 +173,20 @@ ul {
 
     .content-left li {
         height: 30%;
-        width: 200%;
-
     }
 
     .content-left {
         border: 0;
-        float: none;
-        height: 400%;
-        width: 50%;
+        height: 60%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
+
     .nav-vertical {
-        float: none;
-        display: flex;
-        padding: 30%;
-        width: 120%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
