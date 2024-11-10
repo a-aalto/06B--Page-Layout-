@@ -22,7 +22,7 @@ body {
 }
 
 section {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(38, 38, 38);
     padding-top: 5%;
     padding-bottom: 5%;
     margin-left: auto;
@@ -151,42 +151,49 @@ ul {
     }
 
     .surprise {
-        display: block
+        display: block;
     }
 }
+
 @media (max-width: 600px) {
-    nav > a {
+    nav>a {
         margin: 0;
         padding: 0 10px 0 10px;
     }
-    .side-content > img {
+
+    .side-content>img {
         width: 200px;
         height: 200px;
     }
+
     .content-right {
-        clear:left;
+        clear: left;
         height: 40%;
     }
+
     .content-left li {
         height: 30%;
         width: 200%;
-        
+
     }
+
     .content-left {
-        border:0;
+        border: 0;
         float: none;
         height: 400%;
         width: 50%;
     }
+
     .nav-vertical {
-        float:none;
+        float: none;
         display: flex;
         padding: 30%;
         width: 120%;
     }
 }
+
 @media (max-width: 400px) {
-    .side-content > img {
+    .side-content>img {
         display: flex;
     }
 }
